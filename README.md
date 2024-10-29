@@ -1,9 +1,9 @@
 
-# Tracking Scripts for Letterboxd and Simkl
+# Tracking Scripts for Letterboxd, Trakt and Simkl
 
 ## Overview
 
-This repository provides various Python scripts to manage your watch history and lists across **Letterboxd** and **Simkl** platforms. The tools support exporting and importing lists, tracking histories, and comparing movie collections across users or lists.
+This repository provides various Python scripts to manage your watch history and lists across **Letterboxd**, **Trakt** and **Simkl** platforms. The tools support exporting and importing lists, tracking histories, and comparing movie collections across users or lists.
 
 ## Requirements
 
@@ -12,12 +12,8 @@ This repository provides various Python scripts to manage your watch history and
 - **Requests**: For handling HTTP requests.
 - **BeautifulSoup4**: Required by some Letterboxd scripts for HTML parsing.
 - **Selenium** (for certain Letterboxd scripts): Required for web scraping tasks.
-- **API Keys**: Simkl requires an API key, which is configured in `conf.ini`.
+- **API Keys**: Simkl requires an API key, which is configured in `conf.ini`. Also in `importLetterboxdintoSimkl.py` fill in a TMDB ket
 
-Install dependencies using:
-```bash
-pip install -r requirements.txt
-```
 
 ## Scripts
 
