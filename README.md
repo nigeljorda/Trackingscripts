@@ -88,4 +88,3 @@ API_KEY = your_simkl_client_id
 ## User Profiles
 
 - **Simkl Profile**: [Nigel's Simkl Dashboard](https://simkl.com/7088737/dashboard/)
-- **Letterboxd Profile**: [Nigel's Letterboxd Profile](https://letterboxd.com/Ghostlyface/)
