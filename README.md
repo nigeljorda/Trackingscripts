@@ -12,7 +12,7 @@ This repository provides various Python scripts to manage your watch history and
 - **Requests**: For handling HTTP requests.
 - **BeautifulSoup4**: Required by some Letterboxd scripts for HTML parsing.
 - **Selenium** (for certain Letterboxd scripts): Required for web scraping tasks.
-- **API Keys**: Simkl requires an API key, which is configured in `conf.ini`. Also in `importLetterboxdintoSimkl.py` fill in a TMDB ket
+- **API Keys**: Simkl requires an API key, which is configured in `conf.ini`. Also in `importLetterboxdintoSimkl.py` fill in a TMDB API key. Trakt will also ask in the script itself to fill in your client_id and client_secret
 
 
 ## Scripts
@@ -47,17 +47,17 @@ This repository provides various Python scripts to manage your watch history and
 - **Usage**: `python traktexport.py`
 - **Note**: The script prompts for a Trakt Client_ID and Client_secret during execution.
 
-#### 6. traktIxport.py
+#### 6. traktImport.py
 - **Description**: Imports Trakt users watched history, ratings, watchlist and custom lists. **Run `traktExport.py` first** since it only works with backups created with this script
 - **Usage**: `python traktimport.py`
 - **Note**: The script prompts for a Trakt Client_ID and Client_secret during execution.
 
-#### 7. Traktmarker
+#### 7. traktMarker.py
 - **Description**: Marks episodes as watched until a specific episode.
 - **Usage**: `python traktmarker.py`
 - **Note**: The script prompts for a Trakt Client_ID and Client_secret during execution.
 
-#### 8. Traktdeleter
+#### 8. traktDeleter.py
 - **Description**: Deletes items from Trakt including history, ratings, watchlist and lists
 - **Usage**: `python traktdeleter.py`
 - **Note**: The script prompts for a Trakt Client_ID and Client_secret during execution.
