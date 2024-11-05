@@ -78,6 +78,7 @@ The `Userscripts` folder in Simkl includes scripts designed for **Tampermonkey**
 
 ## Configuration
 
+###Simkl
 For Simkl-specific scripts, change the `conf.ini` file in the root directory with your Simkl Client ID:
 
 ```ini
@@ -87,4 +88,4 @@ API_KEY = your_simkl_client_id
 
 ## User Profiles
 
-- **Simkl Profile**: [Nigel's Simkl Dashboard](https://simkl.com/7088737/dashboard/)
+- **Simkl Profile**: [Nigel's Trakt Dashboard](https://trakt.tv/users/nigelwestland)
