@@ -83,8 +83,12 @@ This repository provides various Python scripts to manage your watch history and
 
 ### Userscripts (Tampermonkey)
 
+#### Trakt
+- **LetterboxdReviews**: Fetches the 20 most popular Letterboxd reviews for each movie and displays them on Trakt pages. Reload the page to load reviews.
+
 #### Simkl
 - **LetterboxdReviews**: Fetches the 20 most popular Letterboxd reviews for each movie and displays them on Simkl pages. Reload the page to load reviews.
+
 
 ## User Profiles
 - **Trakt Profile**: [Nigel's Trakt Dashboard](https://trakt.tv/users/nigelwestland)
