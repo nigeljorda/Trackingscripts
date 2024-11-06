@@ -62,6 +62,17 @@ This repository provides various Python scripts to manage your watch history and
 - **Usage**: `python traktdeleter.py`
 - **Note**: The script prompts for a Trakt Client_ID and Client_secret during execution.
 
+#### 9. compareWatched.py
+- **Description**: Compares the watched history of two Trakt users, identifying movies and shows that are in the second user's history but not in the first user's history. The results are saved in a CSV file.
+- **Usage**: `python comparewatched.py`
+- **Note**: The script prompts for a Trakt Client_ID and Client_secret during execution. It also asks for the URLs of the two Trakt user profiles to compare.
+
+#### 10. compareList.py
+- **Description**: Compares two Trakt lists and identifies items (movies and shows) that are in the second list but not in the first list. The results are saved in a CSV file.
+- **Usage**: `python comparelist.py`
+- **Note**: The script prompts for a Trakt Client_ID and Client_secret during execution. It also asks for the URLs of the two Trakt lists to compare.
+
+
 ### Simkl Scripts
 
 #### 1. importLetterboxdintoSimkl.py
