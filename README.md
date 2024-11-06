@@ -70,22 +70,10 @@ This repository provides various Python scripts to manage your watch history and
 - **Dependencies**: Requires a Simkl Client ID, configured in `conf.ini`.
 - **Note**: Change  `TMDB_API_KEY = 'YOURAPIKEY'` to your own in the python file
 
-### Tools and Userscripts
+### Userscripts (Tampermonkey)
 
-#### Userscripts Directory (Simkl)
-The `Userscripts` folder in Simkl includes scripts designed for **Tampermonkey**. For instance:
+#### Simkl
 - **LetterboxdReviews**: Fetches the 20 most popular Letterboxd reviews for each movie and displays them on Simkl pages. Reload the page to load reviews.
 
-## Configuration
-
-### Simkl
-For Simkl-specific scripts, change the `conf.ini` file in the root directory with your Simkl Client ID:
-
-```ini
-[SIMKL]
-API_KEY = your_simkl_client_id
-```
-
 ## User Profiles
-
 - **Trakt Profile**: [Nigel's Trakt Dashboard](https://trakt.tv/users/nigelwestland)
